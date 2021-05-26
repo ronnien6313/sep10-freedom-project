@@ -9,15 +9,116 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
             /* CSS */
-            
+        
+            .fornav {
+                margin-top: 75px;
+            }
+            .textcenter {
+                text-align:center;
+            }
+
+            .overviewyes {
+                padding: 50px;
+            }
+            body {
+                background-color: #FDFAEF;
+            }
+            .categoriesyes {
+                background-color: #EDCA4D;
+                padding: 50px;
+                text-align: center;
+                border-radius: 15px;
+            }
+            .categoriestwo {
+                margin-top: 50px;
+            }
+            .centerimage {
+                 position: relative;
+                 right: 400px;
+            }
+            .resttype {
+                background-color: #ED7A4D;
+                border-radius: 15px;
+                text-align: center;
+                padding: 50px;
+                
+            }
+
         </style>
         
         <title>Title</title>
     </head>
     <body>
-        <!-- HTML -->
-        
-        
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #1E1803;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> Restaurants </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#ToOverview"> Overview </a>
+        <a class="nav-link" href="#ToCate"> Categories </a>
+        <a class="nav-link" href="#ToTypes"> Types of Restaurants </a>
+        <a class="nav-link" href="#ToInno"> Current Innovations </a>
+        <a class="nav-link" href="#ToIdeas"> My Innovative Idea </a>
+      </div>
+    </div>
+  </div>
+</nav>       
+
+<div class="fornav textcenter overviewyes container" id="ToOverview">
+ <h1>Overview</h1>
+ <h3>What Are Restaurants?</h3>
+ <p>A restaurant is a place where people can eat and dine in. There are many types of restaurants, ranging from fast food to family ones.
+ Over time, Restaurants can get more popular and popular, Which leads into new innovations and technology to help with the efficiency.
+ This website will look into the different types of restaurants and innovations developed today.</p>
+ </div>
+ 
+ <div class="categoriesyes container" id="ToCate">
+     <h1> Categories </h1>
+     <h5> When going to a restaurant you can have Order/Take-out or Dine-in</h5>
+     <div class="row categoriestwo">
+         <div class="col-md-6">
+             <h6>Order/Take-out</h6>
+             <p>Ordering food means to buy food online and having it delivered to you.</p>
+             <p>Take-out means to buy food online but you go in person to pick it up.</p>
+         </div>
+         <div class="col-md-6">
+             <h6>Dine-in</h6>
+             <p>Dine-in means going to the restaurant in person, But having a seat and ordering food there. Your food is brought to you and you basically eat in the restaurant.</p>
+         </div>
+     </div>
+ </div>
+ 
+ <div class="row fornav container-fluid">
+     <div class="col-md-2">
+     </div>
+     <div class="col-md-4">
+         <img src="https://cdn.discordapp.com/attachments/589523580606349401/847123477979070474/fast-food-restaurant-antibiotic-policies-489x700.png" alt="FastFoodChains" width="500" height="400">
+     </div>
+     <div class="col-md-4 resttype">
+         <h3>Types of Restaurants</h3>
+         <h6>Fast Food</h6>
+         <p>Fast Food restaurants are extremely popular</p>
+         <p>Food is usually cheaper than other places</p>
+         <p>It is more unhealthy than other places but the food is made quick</p>
+         <h6>Family</h6>
+         <p>Family Restaurants can provide larger portions of food</p>
+         <p>The food is usually more healthy and takes longer to make</p>
+         <p>Can be more focused on a cuisine and is usually more expensive than fast food</p>
+     </div>
+     <div class="col-md-2">
+     </div>
+     
+ </div>
+
+</style>
+</head>
+<body>
+
+       
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
         <script>
